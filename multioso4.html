@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Chagas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header, footer {
+            background-color: white;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        nav {
+            background-color: #17a2b8;
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+/* Estilos para el índice expandible */
+        .accordion {
+            background-color: #17a2b8;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            font-size: 1.1em;
+        }
+        .accordion:after {
+            content: '\002B';
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+        .active:after {
+            content: "\2212";
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+        .panel a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .panel a:hover {
+            text-decoration: underline;
+        }
+        .chart {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 400px;
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .center-content img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+ 
+  <div class="logo-container">
+   
+    
+ <h1>Enfermedad de Chagas transmitida por el vector Triatoma infestans en Chuquisaca Bolivia</h1>
+ <img src="descarga5.png" alt="Logo">
+ <img src="descarga.png" alt="Logo">
+    
+  </div>
+
+</header>
+
+<style>
+  .logo-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+  }
+</style>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#about">Analisis de distribucion espacial</a>
+<a href="#about">Modelos de distribucion de especies</a>
+        <a href="#contact">Links</a>
+        <a href="#graficos">Gráficos</a>
+        <a href="#mapa">Mapas</a>
+    </nav>
+    <main>
+        <section id="inicio" class="center-content">
+            <h2>Inicio</h2>
+            <p>El Chagas es una enfermedad parasitaria endémica en América causada por el parásito Trypanosoma Cruzi transmitida por el vector Triatoma infestans (Vinchuca). Aunque la enfermedad se encuentra en toda América, tiene una mayor prevalencia en las regiones rurales de América Latina, esta fue descubierta y descrita en 1909 por el Dr. Carlos Ribeiro Justiniano Das Chagas (1879-1934), médico sanitarista que a principios de siglo se desempeñaba en el Instituto Bacteriológico de Manguinhos (hoy Instituto Oswaldo Cruz) de Río de Janeiro, Brasil.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Carlos_chagas_2.jpg/270px-Carlos_chagas_2.jpg" alt="Imagen de Carlos Chagas">
+            <p>El principal transmisor de la enfermedad de Chagas en Chuquisaca, Bolivia, es un insecto conocido como vinchuca o chinche besucona (Triatoma infestans)...</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Wg2qFPnp_yBMOC7odiFUixRPLE2u_7CGlA&s/600x300" alt="Imagen de vinchuca">
+            <p>Para obtener información sobre la distribución espacial del vector se utilizaron modelos de distribución de especies...</p>
+            <img src="modelo1.png" alt="Modelo 1 de distribución">
+            <img src="modelo2.png" alt="Modelo 2 de distribución">
+            <p>Este insecto, que se alimenta de sangre, deposita sus heces cerca de las picaduras que realiza en la piel de las personas...</p>
+            <img src="mapa1.png" alt="Mapa de distribución">
+            <p>La enfermedad es endémica en varias áreas rurales de Bolivia, incluyendo Chuquisaca...</p>
+            <img src="construccion1.png" alt="Construcción en zona rural">
+        </section>
+        
+        <section id="about" class="center-content">
+            <h2>Acerca de</h2>
+            <p>Aquí puedes encontrar información acerca de esta página.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Wg2qFPnp_yBMOC7odiFUixRPLE2u_7CGlA&s/600x300" alt="Imagen de muestra">
+            <img src="chagas2.png" alt="Imagen relacionada con Chagas">
+        </section>
+        
+        <section id="contact" class="center-content">
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos a través del siguiente <a href="mailto:pibanezc@est.emi.edu.bo">email</a>.</p>
+        </section>
+        
+        <section id="graficos" class="center-content">
+            <h2>Gráficos</h2>
+            <div class="chart">
+                <canvas id="myChart"></canvas>
+            </div>
+        </section>
+        
+        <section id="mapa" class="center-content">
+            <h2>Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509572!2d144.95565131531596!3d-37.81720997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727e4c0b0b1b37!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1615274994254!5m2!1sen!2sau" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Rojo', 'Azul', 'Amarillo', 'Verde', 'Púrpura', 'Naranja'],
+                datasets: [{
+                    label: '# de Votos',
+                    data: [12, 19, 3, 5, 2, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
